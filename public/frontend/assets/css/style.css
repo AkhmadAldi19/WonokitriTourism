@@ -675,7 +675,7 @@ body.dark-theme {
 .contact__card-box {
   background-color: var(--body-color);
   border: 2px solid var(--border-color);
-  padding: 1.25rem 0.75rem;
+  padding: 1.25rem 3.75rem;
   border-radius: 0.5rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -706,11 +706,12 @@ body.dark-theme {
 }
 
 .contact__card-description {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .contact__card-button {
   font-size: 0.813rem;
+  
   padding: 14px 0;
   width: 100%;
   border-radius: 0.25rem;
@@ -1313,7 +1314,7 @@ body.dark-theme {
 }
 
 .islands__subtitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .islands__title {

@@ -57,8 +57,8 @@
                     onfocus="(this.type='date')"
                     id="date"
                   />
-                  {{-- <input type="text" name="alamat" placeholder="Your Adress" />
-                  <input type="number" name="people" placeholder="Number people" max="5" /> --}}
+                  <input type="text" name="alamat" placeholder="Your Adress" />
+                  <input type="number" name="people" placeholder="Number people" max="5" /> 
                   <button type="submit" class="button button-booking">Send</button>
                 </form>
               </div>

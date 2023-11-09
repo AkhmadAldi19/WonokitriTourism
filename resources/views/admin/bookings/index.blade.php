@@ -31,8 +31,8 @@
                                         <th>No Telphone</th>
                                         <th>Tanggal booking</th>
                                         <th>Paket wisata</th>
-                                        {{-- <th>Alamat</th>
-                                        <th>jumlah</th> --}}
+                                        <th>Alamat</th>
+                                        <th>jumlah</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>

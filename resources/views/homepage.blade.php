@@ -19,15 +19,13 @@
                             style="z-index: 99; position: relative"
                         >
                             <h2 class="islands__subtitle">
-                                Explore
+                                Jelajahi Keindahan Desa Wisata
                             </h2>
                             <h1 class="islands__title">
-                                Wonderfull World
+                                Edelweiss Wonokitri
                             </h1>
                             <p class="islands__description">
-                                It's the perfect time travel and
-                                enjoy the <br />
-                                beauty of the world.
+                                desa terakhir menuju Bromo
                             </p>
                         </div>
                     </div>
@@ -111,7 +109,7 @@
                             class="bx bxs-shield-x value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Best places in the world
+                            Menikmati Spot Terbaik Melihat Sunrise <br> di Bromo
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -120,9 +118,13 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We provides the best places around the
-                            world and have a good quality of
-                            service.
+                            Bromo adalah Salah satu gunung terkenal di Jawa Timur
+                            dengan ketinggian 2.393 mdpl, yang seakan
+                            berada di negeri atas awan. Di sini, Anda
+                            dapat menikmati Sunrise ditemani
+                            dengan pemandangan padang rumput dan
+                            bunga-bunga cantik di spot Pananjakan salah satu
+                            Spot Terindah dikawasan Bromo.
                         </p>
                     </div>
                 </div>
@@ -132,7 +134,7 @@
                             class="bx bxs-x-square value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Affordable price for you
+                            Menjelajahi Desa Wisata Yang Masih <br> memegang teguh budaya <br> asli Suku Tengger
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -141,8 +143,10 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We try to make your budget fit with the
-                            destination that you want to go.
+                            Desa Wonokitri Terkenal Akan Masyarakat yang
+                            masih Memegang Adat dan tradisi Suku Tengger,
+                            Nikmati dan jelajahi wisata alam budaya dengan
+                            memesan tiket wisata event di WonokitriTourism
                         </p>
                     </div>
                 </div>
@@ -152,7 +156,8 @@
                             class="bx bxs-bar-chart-square value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Best plan for your time
+                            Dengan Harga Paket wisata Yang <br>
+                            sangat terjangkau
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -161,7 +166,7 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            Provides you with time properly.
+                            rasakan perjalanan yang menarik dengan paket wisata yang tentunya sangat amat terjangkau
                         </p>
                     </div>
                 </div>
