@@ -78,8 +78,8 @@
                         Wonokitri<span>Tourism.</span>
                     </a>
                     <p class="footer__description">
-                        Our vision is to help people find the <br />
-                        best places to travel with high security
+                        Booking Paket Wisata Desa Edelweiss <br />
+                        Dengan Lebih Mudah & Cepat
                     </p>
                 </div>
 

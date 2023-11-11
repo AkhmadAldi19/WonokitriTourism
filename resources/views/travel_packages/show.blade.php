@@ -44,7 +44,7 @@
               <h3>Booking Now</h3>
               <div class="card">
                 <form action="{{ route('booking.store') }}" method="post">
-                  @csrf 
+                  @csrf
                   <input type="hidden" name="travel_package_id" value="{{ $travel_package->id }}">
                   <input type="text" name="name" placeholder="Your Name" />
                   <input type="email" name="email" placeholder="Your Email" />
@@ -57,8 +57,8 @@
                     onfocus="(this.type='date')"
                     id="date"
                   />
-                  {{-- <input type="text" name="alamat" placeholder="Your Adress" />
-                  <input type="number" name="people" placeholder="Number people" max="5" /> --}}
+                  <input type="text" name="address" placeholder="Your Adress" />
+                  <input type="number" name="quantity" placeholder="Number people" max="5" />
                   <button type="submit" class="button button-booking">Send</button>
                 </form>
               </div>

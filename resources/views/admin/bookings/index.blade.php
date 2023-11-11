@@ -26,13 +26,13 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Name</th>
+                                        <th>Nama</th>
                                         <th>Email</th>
                                         <th>No Telphone</th>
                                         <th>Tanggal booking</th>
                                         <th>Paket wisata</th>
-                                        {{-- <th>Alamat</th>
-                                        <th>jumlah</th> --}}
+                                        <th>Alamat</th>
+                                        <th>Jumlah</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -45,12 +45,14 @@
                                         <td>{{ $booking->number_phone }}</td>
                                         <td>{{ $booking->date }}</td>
                                         <td>{{ $booking->travel_package->location }}</td>
+                                        <td>{{ $booking->address }}</td>
+                                        <td>{{ $booking->quantity }}</td>
                                         <td>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.bookings.destroy', [$booking]) }}" method="post">
-                                                @csrf 
+                                                @csrf
                                                 @method('delete')
                                                 <button class="btn btn-sm btn-danger"> <i class="fa fa-trash"></i> </button>
-                                            </form>                              
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach
