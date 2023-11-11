@@ -1,7 +1,7 @@
 <h1 align="center">WonokitriTourism</h1>
 <p align="center">An Travel Website at Edelweiss Wonokitri</p>
 
-![NFTMarket Screenshot](https://raw.githubusercontent.com/Isallkun/WonokitriTourism/master/WonokitriTourism.png)
+![WonokitriTourism Screenshot](https://raw.githubusercontent.com/Isallkun/WonokitriTourism/master/WonokitriTourism.png)
 
 <p align="center">Created By &hearts; Tim PPK Ormawa Yudharta</p>
 <div align="center">
