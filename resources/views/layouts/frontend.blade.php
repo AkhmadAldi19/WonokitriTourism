@@ -78,9 +78,8 @@
                         Wonokitri<span>Tourism.</span>
                     </a>
                     <p class="footer__description">
-                        WonokitriTourism adalah Sub Domain Resmi <br>
-                        dari website Desa Edelweiss Wonokitri yang<br>
-                        digunakan Untuk pemesanan Paket Wisata
+                        Booking Paket Wisata Desa Edelweiss <br />
+                        Dengan Lebih Mudah & Cepat
                     </p>
                 </div>
 

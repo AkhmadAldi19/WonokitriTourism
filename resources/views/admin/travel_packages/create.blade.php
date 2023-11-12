@@ -21,7 +21,7 @@
                 <div class="col-lg-12">
                     <div class="card p-3">
                         <form method="post" action="{{ route('admin.travel_packages.store') }}">
-                            @csrf 
+                            @csrf
                             <div class="form-group row border-bottom pb-4">
                                 <label for="type" class="col-sm-2 col-form-label">Durasi</label>
                                 <div class="col-sm-10">
@@ -38,6 +38,12 @@
                                 <label for="price" class="col-sm-2 col-form-label">Harga</label>
                                 <div class="col-sm-10">
                                 <input text="number" class="form-control" id="price" name="price" value="{{ old('price') }}" placeholder="contoh: 300">
+                                </div>
+                            </div>
+                            <div class="form-group row border-bottom pb-4">
+                                <label for="youtube_url" class="col-sm-2 col-form-label">URL Youtube</label>
+                                <div class="col-sm-10">
+                                <input text="text" class="form-control" id="youtube_url" name="youtube_url" value="{{ old('youtube_url') }}" placeholder="contoh : https://youtu.be">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">

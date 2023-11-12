@@ -42,12 +42,12 @@
                                             </a>
                                         </td>
                                         <td>
-                                            <a href="{{ route('admin.travel_packages.galleries.edit', [$travel_package,$gallery]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>              
+                                            <a href="{{ route('admin.travel_packages.galleries.edit', [$travel_package,$gallery]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.travel_packages.galleries.destroy', [$travel_package,$gallery]) }}" method="post">
-                                                @csrf 
+                                                @csrf
                                                 @method('delete')
                                                 <button class="btn btn-sm btn-danger"> <i class="fa fa-trash"></i> </button>
-                                            </form>                              
+                                            </form>
                                         </td>
                                     </tr>
                                 @empty
@@ -63,28 +63,28 @@
                 <div class="col-lg-12">
                     <div class="card p-3">
                         <form method="post" action="{{ route('admin.travel_packages.galleries.store', [$travel_package]) }}" enctype="multipart/form-data">
-                            @csrf 
+                            @csrf
                             <div class="form-group row border-bottom pb-4">
                                 <label for="name" class="col-sm-2 col-form-label">kategori</label>
                                 <div class="col-sm-10">
                                 <input type="text" class="form-control" name="name" value="{{ old('name') }}" id="name" placeholder="example: Kuta">
                                 </div>
                             </div>
-                           
+
                             <div class="form-group row border-bottom pb-4">
                                 <label for="images" class="col-sm-2 col-form-label">Gambar</label>
                                 <div class="col-sm-10">
                                 <input type="file" class="form-control" name="images" value="{{ old('images') }}" id="images">
                                 </div>
                             </div>
-                           
+
                             <button type="submit" class="btn btn-success">Simpan</button>
                         </form>
                     </div>
 
                     <div class="card p-3">
                         <form method="post" action="{{ route('admin.travel_packages.update', [$travel_package]) }}">
-                            @csrf 
+                            @csrf
                             @method('put')
                             <div class="form-group row border-bottom pb-4">
                                 <label for="type" class="col-sm-2 col-form-label">Type</label>
@@ -102,6 +102,12 @@
                                 <label for="price" class="col-sm-2 col-form-label">Price</label>
                                 <div class="col-sm-10">
                                 <input text="number" class="form-control" id="price" name="price" value="{{ old('price', $travel_package->price) }}" placeholder="example: 300">
+                                </div>
+                            </div>
+                            <div class="form-group row border-bottom pb-4">
+                                <label for="youtube_url" class="col-sm-2 col-form-label">URL Youtube</label>
+                                <div class="col-sm-10">
+                                <input text="text" class="form-control" id="youtube_url" name="youtube_url" value="{{ old('youtube_url') }}" placeholder="contoh : https://youtu.be">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">

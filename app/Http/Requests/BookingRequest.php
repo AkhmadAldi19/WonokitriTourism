@@ -27,6 +27,8 @@ class BookingRequest extends FormRequest
             'number_phone' => 'required',
             'date' => ['required', 'date'],
             'travel_package_id' => 'required',
+            'address' => 'required',
+            'quantity' => 'required',
         ];
     }
 }
