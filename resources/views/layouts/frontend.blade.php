@@ -39,13 +39,13 @@
                         </li>
                         <li class="nav__item">
                             <a href="{{ route('travel_package.index') }}" class="nav__link {{ request()->is('travel-packages') || request()->is('travel-packages/*')  ? ' active-link' : '' }}">
-                                <i class="bx bx-building-house"></i>
+                                <i class="bx bx-trip"></i>
                                 <span>Paket Wisata</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="{{ route('blog.index') }}" class="nav__link {{ request()->is('blogs') || request()->is('blogs/*')  ? ' active-link' : '' }}">
-                                <i class="bx bx-award"></i>
+                                <i class="bx bx-building-house"></i>
                                 <span>Homestay</span>
                             </a>
                         </li>
@@ -61,7 +61,7 @@
                 <!-- theme -->
                 <i class="bx bx-moon change-theme" id="theme-button"></i>
 
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=6282229833757&text=I want to booking" class="button nav__button">Booking Now</a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=6282229833757&text=I want to booking" class="button nav__button">Pesan Sekarang</a>
             </nav>
         </header>
 
@@ -91,12 +91,6 @@
                             <li>
                                 <a href="#" class="footer__link">About Us</a>
                             </li>
-                            <li>
-                                <a href="#" class="footer__link">Features </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">News & Blog</a>
-                            </li>
                         </ul>
                     </div>
                     <div>
@@ -108,12 +102,6 @@
                                     >How We Work?
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="footer__link">Capital </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"> Security</a>
-                            </li>
                         </ul>
                     </div>
                     <div>
@@ -121,15 +109,7 @@
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">FAQs </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"
-                                    >Support center
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"> Contact Us</a>
+                                <a href="http://127.0.0.1:8000/contact" class="footer__link"> Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -144,7 +124,7 @@
                                 <i class="bx bxl-instagram-alt"></i>
                             </a>
                             <a href="#" class="footer__social-link">
-                                <i class="bx bxl-pinterest"></i>
+                                <i class="bx bxl-tiktok"></i>
                             </a>
                         </ul>
                     </div>

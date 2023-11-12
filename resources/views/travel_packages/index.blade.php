@@ -22,9 +22,9 @@
       <!--==================== POPULAR ====================-->
       <section class="section" id="popular">
         <div class="container">
-          <span class="section__subtitle" style="text-align: center">All</span>
+          <span class="section__subtitle" style="text-align: center">SEMUA</span>
           <h2 class="section__title" style="text-align: center">
-            Package Travel
+            Paket Wisata
           </h2>
 
           <div class="popular__all">
@@ -37,7 +37,7 @@
                     class="popular__img"
                     />
                     <div class="popular__data">
-                    <h2 class="popular__price">{{ number_format($travel_package->price,2) }}</h2>
+                    <h2 class="popular__price"><span>Rp.</span>{{ number_format($travel_package->price,3) }}</h2>
                     <h3 class="popular__title">{{ $travel_package->location }}</h3>
                     <p class="popular__description">{{ $travel_package->type }}</p>
                     </div>

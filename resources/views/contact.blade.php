@@ -15,8 +15,8 @@
               <div class="bg__overlay">
                 <div class="islands__container container">
                   <div class="islands__data">
-                    <h2 class="islands__subtitle">Need Travel</h2>
-                    <h1 class="islands__title">Contact Us</h1>
+                    <h2 class="islands__subtitle">Butuh Perjalanan</h2>
+                    <h1 class="islands__title">Hubungi Kami</h1>
                   </div>
                 </div>
               </div>
@@ -37,61 +37,48 @@
 
           <div class="contact__content">
             <div class="contact__data">
-              <span class="section__subtitle">Need Help</span>
-              <h2 class="section__title">Don't hesitate to contact us</h2>
+              <span class="section__subtitle">Butuh Bantuan</span>
+              <h2 class="section__title">Jangan ragu untuk menghubungi kami</h2>
               <p class="contact__description">
-                Is there a problem finding places for yout next trip? Need a
-                guide in first trip or need a consultation about traveling? just
-                contact us.
+                Apakah ada masalah dalam menemukan tempat untuk perjalanan 
+                Anda berikutnya? Butuh panduan di perjalanan 
+                pertama atau butuh konsultasi seputar traveling? cukup hubungi kami.
               </p>
             </div>
 
             <div class="contact__card">
               <div class="contact__card-box">
                 <div class="contact__card-info">
-                  <i class="bx bxs-phone-call"></i>
-                  <div>
-                    <h3 class="contact__card-title">Call</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
-                  </div>
-                </div>
-
-                <button class="button contact__card-button">Call Now</button>
-              </div>
-              <div class="contact__card-box">
-                <div class="contact__card-info">
                   <i class="bx bxs-message-rounded-dots"></i>
                   <div>
                     <h3 class="contact__card-title">Whatsapp</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <p class="contact__card-description">+62 822-2983-3757</p>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Chat Now</button>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=6282229833757&text=I want to booking" class="button contact__card-button"> <center>Pesan Sekarang</center></a>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-video"></i>
                   <div>
-                    <h3 class="contact__card-title">Video Call</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <h3 class="contact__card-title">Telepon</h3>
+                    <p class="contact__card-description">+62 822-2983-3757</p>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">
-                  Video Call Now
-                </button>
+                <a target="_blank" href="tel:+6282229833757" class="button contact__card-button"> <center>Telepon Sekarang</center></a>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
-                  <i class="bx bxs-phone-call"></i>
+                  <i class="bx bxs-chat"></i>
                   <div>
-                    <h3 class="contact__card-title">Message</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <h3 class="contact__card-title">Email</h3>
+                    <p class="contact__card-description">desaedelweiswonokitri <br>@gmail.com</p>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Message Now</button>
+                <a target="_blank" href="mailto:desaedelweiswonokitri@gmail.com" class="button contact__card-button"> <center>Email Sekarang</center></a> 
               </div>
             </div>
           </div>
@@ -105,20 +92,19 @@
           <div class="value__orbe"></div>
 
           <div class="value__img">
-              <img src="{{ asset('frontend/assets/img/team.jpg') }}" alt="" />
+              <img src="{{ asset('frontend/assets/img/team1.jpg') }}" alt="" />
           </div>
       </div>
 
       <div class="value__content">
           <div class="value__data">
-              <span class="section__subtitle">Why Choose Us</span>
+              <span class="section__subtitle">Pertanyaan Yang sering diajukan</span>
               <h2 class="section__title">
-                  Experience That We Promise To You
+                  Frequently Asked Questions
               </h2>
               <p class="value__description">
-                  We always ready to serve by providing the best
-                  service for you. We make a good choices to
-                  travel around the world.
+                Daftar pertanyaan dari pengguna WonokitriTourism yang
+                sering ditanyakan beserta jawabannya.
               </p>
           </div>
 
@@ -207,4 +193,5 @@
       </div>
   </div>
 </section>
+
 @endsection
