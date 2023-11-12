@@ -37,9 +37,19 @@
       <section class="blog section" id="blog">
         <div class="blog__container container">
           <div class="content__container">
+             <!-- Embed YouTube Video -->
+                    @if($travel_package->youtube_url)
+                        <center><div class="video-container">
+                            <center><iframe width="560" height="315" src="{{ $travel_package->youtube_url }}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    @endif
+                </div>
+            <br>
             <div class="blog__detail">
             {!! $travel_package->description !!}
             </div>
+            <br>
+
             <div class="package-travel">
               <h3>Booking Now</h3>
               <div class="card">
