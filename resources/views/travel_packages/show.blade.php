@@ -68,7 +68,7 @@
                     id="date"
                   />
                   <input type="text" name="address" placeholder="Your Adress" />
-                  <input type="number" name="quantity" placeholder="Number people" max="5" />
+                  <input type="number" name="quantity" placeholder="Number people" max="10" />
                   <button type="submit" class="button button-booking">Send</button>
                 </form>
               </div>

@@ -36,6 +36,14 @@
                     </p>
                 </a>
             </li>
+            {{-- <li class="nav-item">
+                <a href="{{ route('admin.bookings.index') }}" class="nav-link">
+                    <i class="nav-icon fas fa-date"></i>
+                    <p>
+                        {{ __('validate') }}
+                    </p>
+                </a>
+            </li> --}}
 
             <li class="nav-item">
                 <a href="{{ route('admin.travel_packages.index') }}" class="nav-link">
