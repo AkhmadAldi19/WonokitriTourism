@@ -33,6 +33,7 @@
                                         <th>Paket wisata</th>
                                         <th>Alamat</th>
                                         <th>Jumlah</th>
+                                        <th>Created At</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -47,6 +48,7 @@
                                         <td>{{ $booking->travel_package->location }}</td>
                                         <td>{{ $booking->address }}</td>
                                         <td>{{ $booking->quantity }}</td>
+                                        <td>{{ $booking->created_at }}</td>
                                         <td>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.bookings.destroy', [$booking]) }}" method="post">
                                                 @csrf
