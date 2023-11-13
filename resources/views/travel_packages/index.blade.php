@@ -27,7 +27,7 @@
             Tata Cara Pemesanan Paket Wisata
           </h2>
           <div class="img_tut">
-            <img src="{{ asset('frontend/assets/img/travel-1.jpg') }}" alt="">
+            <img src="{{ asset('frontend/assets/img/travel-1.png') }}" alt="">
           </div>
           
 
