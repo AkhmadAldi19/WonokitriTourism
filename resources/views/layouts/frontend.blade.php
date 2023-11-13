@@ -98,8 +98,8 @@
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link"
-                                    >How We Work?
+                                <a href="http://127.0.0.1:8000/login" class="footer__link"
+                                    >Login 
                                 </a>
                             </li>
                         </ul>

@@ -19,6 +19,21 @@
         </div>
       </section>
 
+      <!--==================== Tata Cara Pemesanan Tiket ====================-->
+      <section class="section" id="Tutorial">
+        <div class="container">
+          <span class="section__subtitle" style="text-align: center">Informasi</span>
+          <h2 class="section__title" style="text-align: center">
+            Tata Cara Pemesanan Paket Wisata
+          </h2>
+          <div class="img_tut">
+            <img src="{{ asset('frontend/assets/img/travel-1.jpg') }}" alt="">
+          </div>
+          
+
+        </div>
+      </section>
+
       <!--==================== POPULAR ====================-->
       <section class="section" id="popular">
         <div class="container">

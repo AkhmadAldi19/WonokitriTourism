@@ -115,7 +115,7 @@
                           class="bx bxs-shield-x value-accordion-icon"
                       ></i>
                       <h3 class="value__accordion-title">
-                          Best places in the world
+                          Bagaimana Cara Memesan Paket Wisata ?
                       </h3>
                       <div class="value__accordion-arrow">
                           <i class="bx bxs-down-arrow"></i>
@@ -124,9 +124,7 @@
 
                   <div class="value__accordion-content">
                       <p class="value__accordion-description">
-                          We provides the best places around the
-                          world and have a good quality of
-                          service.
+                        Tutorial pemesanan paket wisata dapat dilihat di halaman "Paket Wisata" / "Informasi".
                       </p>
                   </div>
               </div>
@@ -136,7 +134,7 @@
                           class="bx bxs-x-square value-accordion-icon"
                       ></i>
                       <h3 class="value__accordion-title">
-                          Affordable price for you
+                          Persyaratan Apa Saja Yang Perlu dibawa saat Hari Perjalanan ?
                       </h3>
                       <div class="value__accordion-arrow">
                           <i class="bx bxs-down-arrow"></i>
@@ -145,8 +143,7 @@
 
                   <div class="value__accordion-content">
                       <p class="value__accordion-description">
-                          We try to make your budget fit with the
-                          destination that you want to go.
+                        Pastikan untuk membawa KTP,dan Bukti Pembayaran Paket wisata yang telah anda pesan (bila anda sudah memesan Paket wisata).
                       </p>
                   </div>
               </div>
@@ -156,7 +153,10 @@
                           class="bx bxs-bar-chart-square value-accordion-icon"
                       ></i>
                       <h3 class="value__accordion-title">
-                          Best plan for your time
+                          Apakah Rombongan melebihi kapasitas <br> 
+                          maksimal paket wisata diharuskan submit <br>
+                          form berulang-ulang<br>
+                          
                       </h3>
                       <div class="value__accordion-arrow">
                           <i class="bx bxs-down-arrow"></i>
@@ -165,29 +165,11 @@
 
                   <div class="value__accordion-content">
                       <p class="value__accordion-description">
-                          Provides you with time properly.
+                          Untuk Pengunjung Yang Melebihi kapasitas maksimal paket wisata bisa langsung
+                          Menghubungi admin WonokitriTourism yang tercantum Pada Halaman Kontak 
                       </p>
                   </div>
               </div>
-              <div class="value__accordion-item">
-                  <header class="value__accordion-header">
-                      <i
-                          class="bx bxs-check-square value-accordion-icon"
-                      ></i>
-                      <h3 class="value__accordion-title">
-                          Security guarantee
-                      </h3>
-                      <div class="value__accordion-arrow">
-                          <i class="bx bxs-down-arrow"></i>
-                      </div>
-                  </header>
-
-                  <div class="value__accordion-content">
-                      <p class="value__accordion-description">
-                          We make sure that our services have a
-                          good of security
-                      </p>
-                  </div>
               </div>
           </div>
       </div>
