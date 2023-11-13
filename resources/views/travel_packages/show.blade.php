@@ -69,6 +69,10 @@
                   />
                   <input type="text" name="address" placeholder="Your Adress" />
                   <input type="number" name="quantity" placeholder="Number people" max="10" />
+                  <!-- Menambahkan input untuk kode booking -->
+                  <input type="hidden" name="booking_code" value="{{ substr(md5(uniqid()), 0, 5) }}" />
+                  <!-- Menambahkan input untuk status -->
+                  <input type="hidden" name="status" value="1" />
                   <button type="submit" class="button button-booking">Send</button>
                 </form>
               </div>

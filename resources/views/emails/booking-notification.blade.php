@@ -47,22 +47,20 @@ $conn = null;
     <title>Booking Notification</title>
 </head>
 <body>
-    <p>Shalom,</p>
-    <p>Hong Ulun Basuki Langgeng.</p>
+    <br>Halo Kak, {{ $bookingData['name'] }},</p>
+    <br>Hong Ulun Basuki Langgeng.</p>
 
-    <p>Halo Kak, {{ $bookingData['name'] }},</p>
-    <p>Berikut adalah detail pesanan Anda:</p>
+    <p>Berikut adalah detail pesanan Anda:
     <ul>
-
         <li>Tanggal Pesanan: {{ $bookingData['date'] }}</li>
         <li>Produk Paket Wisata: {{ $result['location'] }}</li>
         <li>Jumlah Orang: {{ $bookingData['quantity'] }}</li>
         <li>Harga: {{ number_format ($result['price']*$bookingData['quantity'],3 , '.', ',' ) }}</li>
     </ul>
 
-    <p>Terima kasih telah melakukan pemesanan</p>
-    <p>Mohon konfirmasi pembayaran melalui form</p>
+    <br>Terima kasih telah melakukan pemesanan
+    <br>Mohon konfirmasi pembayaran melalui form berikut
 
-    <p>Salam Admin Wonokitri Tourism</p>
+    <p>Salam Admin Wonokitri Tourism
 </body>
 </html>
