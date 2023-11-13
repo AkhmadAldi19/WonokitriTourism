@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Booking;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\BookingRequest;
 
 class BookingController extends Controller
 {
@@ -31,7 +32,17 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Validasi request
+        $validatedData = $request->validated();
+
+        // Buat booking baru
+        $booking = Booking::create($validatedData);
+
+        // Redirect ke halaman edit booking yang baru dibuat
+        return redirect()->route('admin.bookings.edit', [$booking])->with([
+            'message' => 'Success Created!',
+            'alert-type' => 'success'
+        ]);
     }
 
     /**
@@ -45,17 +56,24 @@ class BookingController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Booking $booking)
     {
-        //
+        return view('admin.bookings.edit', compact('booking'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(BookingRequest $request, Booking $booking)
     {
-        //
+        if ($request->validated()) {
+            $booking->update($request->validated());
+        }
+
+        return redirect()->route('admin.bookings.index')->with([
+            'message' => 'Success Updated!',
+            'alert-type' => 'info'
+        ]);
     }
 
     /**

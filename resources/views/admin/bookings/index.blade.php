@@ -33,6 +33,8 @@
                                         <th>Paket wisata</th>
                                         <th>Alamat</th>
                                         <th>Jumlah</th>
+                                        <th>Booking Code</th>
+                                        <th>Status</th>
                                         <th>Created At</th>
                                         <th>Aksi</th>
                                     </tr>
@@ -48,8 +50,11 @@
                                         <td>{{ $booking->travel_package->location }}</td>
                                         <td>{{ $booking->address }}</td>
                                         <td>{{ $booking->quantity }}</td>
+                                        <td>{{ $booking->booking_code }}</td>
+                                        <td>{{ $booking->status }}</td>
                                         <td>{{ $booking->created_at }}</td>
                                         <td>
+                                            <a href="{{ route('admin.bookings.edit', [$booking]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.bookings.destroy', [$booking]) }}" method="post">
                                                 @csrf
                                                 @method('delete')

@@ -29,6 +29,8 @@ class BookingRequest extends FormRequest
             'travel_package_id' => 'required',
             'address' => 'required',
             'quantity' => 'required',
+            'booking_code' => 'required', // Tambahkan aturan validasi untuk booking_code
+            'status' => 'required|in:1,2', // Tambahkan aturan validasi untuk status dengan nilai 1 atau 2
         ];
     }
 }

@@ -19,7 +19,7 @@ Route::group(['middleware' => ['is_admin','auth'], 'prefix' => 'admin', 'as' => 
     Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
     // booking
-    Route::resource('bookings', \App\Http\Controllers\Admin\BookingController::class)->only(['index', 'destroy']);
+    Route::resource('bookings', \App\Http\Controllers\Admin\BookingController::class)->only(['index', 'edit', 'update', 'destroy']);
     // travel packages
     Route::resource('travel_packages', \App\Http\Controllers\Admin\TravelPackageController::class)->except('show');
     Route::resource('travel_packages.galleries', \App\Http\Controllers\Admin\GalleryController::class)->except(['create', 'index','show']);
