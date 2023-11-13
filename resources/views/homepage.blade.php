@@ -57,7 +57,7 @@
                             />
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>Rp.</span>{{ number_format($travel_package->price,3) }}
+                                    <span>Rp </span>{{ number_format($travel_package->price,3) }} / Pax
                                 </h2>
                                 <h3 class="popular__title">
                                     {{ $travel_package->location}}
