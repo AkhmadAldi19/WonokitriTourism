@@ -117,13 +117,13 @@
                         <h3 class="footer__title">Follow us</h3>
 
                         <ul class="footer__social">
-                            <a href="#" class="footer__social-link">
-                                <i class="bx bxl-facebook-circle"></i>
+                            <a href="https://www.youtube.com/channel/UCVI8Zm3xfW7lzr6HuiPvufw" class="footer__social-link">
+                                <i class="bx bxl-youtube"></i>
                             </a>
-                            <a href="#" class="footer__social-link">
+                            <a href="https://www.instagram.com/desa.edelweiss_wonokitri/?igshid=aWRhdW1mOWRiZGdp" class="footer__social-link">
                                 <i class="bx bxl-instagram-alt"></i>
                             </a>
-                            <a href="#" class="footer__social-link">
+                            <a href="https://www.tiktok.com/@desaedelweisswonokitri?_d=secCgYIASAHKAESPgo8woITk6J9eexLNLWFPWtHbjewejYWdlZ90mcz3HeBZIrrkMyPkY8fIa1PrAY3jaJbOKUyI8lqldp5FFuOGgA%3D&checksum=542bf23a5ab367ceaad6d56f8392c7e2a7262737c253702b403681b2ab554fce&sec_uid=MS4wLjABAAAAmf1DuvdZjWJIzvSgRUhD_cKULDw53QQraUFpmR9M5zKWgpKgvxVF4067j0hDQ9If&sec_user_id=MS4wLjABAAAAPdsWEJZ6iycBFHJMsLqD5Te5U8Yv64V0BDO0RpD4nR5jBNG2UU7LucwZJn4zvuht&share_app_id=1340&share_author_id=7272991620684088325&share_link_id=b305362c-fa43-4b32-bcb1-504257de77da&sharer_language=id&timestamp=1699456890&u_code=e6cd7j7iaekh26&ugbiz_name=Account&user_id=7199983197987718149&utm_campaign=client_share&utm_source=copy&_r=1" class="footer__social-link">
                                 <i class="bx bxl-tiktok"></i>
                             </a>
                         </ul>
