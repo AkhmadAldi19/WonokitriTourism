@@ -52,6 +52,7 @@ $conn = null;
 
     <p>Berikut adalah detail pesanan Anda:
     <ul>
+        <li>Kode Booking: {{ $bookingData['booking_code'] }}</li>
         <li>Tanggal Pesanan: {{ $bookingData['date'] }}</li>
         <li>Produk Paket Wisata: {{ $result['location'] }}</li>
         <li>Jumlah Orang: {{ $bookingData['quantity'] }}</li>
@@ -61,6 +62,6 @@ $conn = null;
     <br>Terima kasih telah melakukan pemesanan
     <br>Mohon konfirmasi pembayaran melalui form berikut
 
-    <p>Salam Admin Wonokitri Tourism
+    <p>Salam Admin WonokitriTourism
 </body>
 </html>

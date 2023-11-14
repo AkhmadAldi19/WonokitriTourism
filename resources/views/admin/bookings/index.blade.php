@@ -51,7 +51,15 @@
                                         <td>{{ $booking->address }}</td>
                                         <td>{{ $booking->quantity }}</td>
                                         <td>{{ $booking->booking_code }}</td>
-                                        <td>{{ $booking->status }}</td>
+                                        <td>
+                                            @if($booking->status == 1)
+                                                <button class="btn btn-danger">Belum Membayar</button>
+                                            @elseif($booking->status == 2)
+                                                <button class="btn btn-success">Sudah Membayar</button>
+                                            @else
+                                                <button class="btn btn-secondary">Status Tidak Diketahui</button>
+                                            @endif
+                                        </td>
                                         <td>{{ $booking->created_at }}</td>
                                         <td>
                                             <a href="{{ route('admin.bookings.edit', [$booking]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>

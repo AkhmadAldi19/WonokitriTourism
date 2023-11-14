@@ -80,9 +80,13 @@
                             <div class="form-group row border-bottom pb-4">
                                 <label for="status" class="col-sm-2 col-form-label">Status</label>
                                 <div class="col-sm-10">
-                                    <input type="number" class="form-control" name="status" value="{{ old('status', $booking->status) }}" id="status" placeholder="example: 1 (Belum Bayar) | 2 (Sudah Bayar)">
+                                    <select class="form-select" name="status" id="status">
+                                        <option value="1" {{ old('status', $booking->status) == 1 ? 'selected' : '' }}> Belum Membayar </option>
+                                        <option value="2" {{ old('status', $booking->status) == 2 ? 'selected' : '' }}> Sudah Membayar </option>
+                                    </select>
                                 </div>
                             </div>
+
                             <!-- Add other form fields related to bookings -->
 
                             <button type="submit" class="btn btn-success">Save</button>
